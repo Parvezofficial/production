@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/*** Service ***/
+.service-item {
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+    text-decoration: none;
+    
+}
+h5{
+    font-weight: 700;
+    line-height: 1.2;
+    color: #0F172B;
+}
+
+.service-item:hover {
+    background: orange;
+}
+
+.service-item .service-icon {
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+    transition: .5s;
+}
+
+.service-item #hotel,
+.service-item h5,
+.service-item p {
+    transition: .5s;
+}
+.service-item:hover #hotel,
+.service-item:hover h5,
+.service-item:hover p {
+    color: #FFFFFF !important;
+}
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+.picker{
+    color: orange;
+    text-transform: uppercase;
+}
